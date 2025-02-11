@@ -1,19 +1,16 @@
 {
-  "name": "starinc/slim",
-  "type": "project",
-  "license": "MIT",
-  "autoload": {
-    "psr-4": {
-      "Slim\\": "src/"
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
     }
-  },
-  "authors": [
-    {
-      "name": "SuperSonic",
-      "email": "supersonic@livemail.tw"
-    }
-  ],
-  "require": {
-    "ext-pdo": "*"
-  }
 }
