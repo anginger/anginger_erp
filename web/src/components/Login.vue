@@ -10,16 +10,16 @@
           />
         </v-avatar>
         <v-card-title>
-          Slim ERP Framework
+          Anginger ERP Framework
         </v-card-title>
       </v-card-title>
     </v-card>
     <v-card outlined rounded>
       <v-card-title>
-        Slim ERP 登入界面
+        Anginger ERP 登入界面
       </v-card-title>
       <v-card-subtitle>
-        Slim ERP Login
+        Anginger ERP Login
       </v-card-subtitle>
       <v-card-subtitle class="red white--text" v-show="message" v-text="message"/>
       <v-card-actions v-if="!id_login">

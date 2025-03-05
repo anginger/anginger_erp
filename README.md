@@ -2,7 +2,7 @@
 
 Anginger ERP 是一款輕量級 ERP 系統，面向臺灣客戶設計。
 
-SlimERP is a lightweight ERP system designed for Taiwanese. 
+Anginger ERP is a lightweight ERP system designed for Taiwanese. 
 
 ## Default User
 
@@ -12,6 +12,6 @@ SlimERP is a lightweight ERP system designed for Taiwanese.
 
 ## License
 
-[MIT license](LICENSE)
+[Apache 2.0 license](LICENSE)
 
 > (c) 2021 [Star Inc.](https://starinc.xyz)

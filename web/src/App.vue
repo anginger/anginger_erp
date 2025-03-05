@@ -27,7 +27,7 @@ import Drawer from "./components/Layout/Drawer";
 import Disconnected from "./components/Disconnected.vue";
 
 export default {
-  name: "Slim",
+  name: "Anginger",
   components: {
     Drawer,
     Loading,

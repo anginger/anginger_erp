@@ -1,13 +1,13 @@
 <?php
 /**
  * Copyright 2025 Anginger Platform
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *     http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -15,12 +15,19 @@
  * limitations under the License.
  */
 
-// comment out the following two lines when deployed to production
-defined('YII_DEBUG') or define('YII_DEBUG', true);
-defined('YII_ENV') or define('YII_ENV', 'dev');
+namespace anginger\controllers;
 
-require(__DIR__ . '/../vendor/autoload.php');
-require(__DIR__ . '/../vendor/yiisoft/yii2/Yii.php');
+use yii\rest\ActiveController;
 
-$config = require __DIR__ . '/../config.php';
-(new yii\web\Application($config))->run();
+class UsersController extends ActiveController
+{
+    public $modelClass = 'anginger\models\User';
+
+    public function behaviors(): array
+    {
+        // remove rateLimiter which requires an authenticated user to work
+        $behaviors = parent::behaviors();
+        unset($behaviors['rateLimiter']);
+        return $behaviors;
+    }
+}

@@ -2,10 +2,10 @@
   <v-container>
     <v-card flat>
       <v-card-title>
-        登出 Slim ERP
+        登出 Anginger ERP
       </v-card-title>
       <v-card-subtitle>
-        Logout Slim ERP
+        Logout Anginger ERP
       </v-card-subtitle>
       <v-card-actions>
         <v-btn :disabled="loading" @click="cancel" depressed>取消</v-btn>

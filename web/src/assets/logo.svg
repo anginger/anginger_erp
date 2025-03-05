@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="650pt"
+  height="532pt"
+  viewBox="0 0 470 532" version="1.2">
+  <g id="surface47729">
+    <path
+      style="fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(88%,51.04%,75.4336%);stroke-opacity:1;stroke-miterlimit:10;"
+      d="M 150 450 L 250 50 L 350 450 " />
+    <path
+      style="fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(88%,51.04%,75.4336%);stroke-opacity:1;stroke-miterlimit:10;"
+      d="M 150 450 L 50 250 L 450 250 " />
+  </g>
+</svg>
